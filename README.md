@@ -4,7 +4,7 @@
 
 ```sql
 CREATE TABLE `所属マスタ` (
-  `所属コード` char(4) NOT NULL,
+  `所属コード` varchar(4) NOT NULL,
   `所属名称` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`所属コード`)
 )

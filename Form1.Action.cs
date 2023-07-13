@@ -67,7 +67,7 @@ namespace cs_form_mtn_011_vs2022
             // キャンセルなので入力したフィールドのクリア
             this.所属.SelectedIndex = 0;
 
-        }
+        }  
 
 
         private void 更新_Click(object sender, EventArgs e)
